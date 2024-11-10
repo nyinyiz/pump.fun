@@ -4,6 +4,7 @@ pub mod initialize;
 pub mod remove_liquidity;
 pub mod buy;
 pub mod sell;
+mod twitter_login;
 
 pub use add_liquidity::*;
 pub use create_pool::*;
